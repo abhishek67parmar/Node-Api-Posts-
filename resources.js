@@ -8,7 +8,7 @@ var Post = require('./model/post');
 
 var app = express();
 //console.log('sdfsd');
-mongoose.connect("mongodb+srv://abhi_data:Abhi67shek@abhi-aaklb.mongodb.net/post_data?retryWrites=true")
+mongoose.connect("mongodb+srv://abhi_data:aaa@abhi-aaklb.mongodb.net/post_data?retryWrites=true")
 .then(()=>{
   console.log("Connection Established!!!!!");
 })
